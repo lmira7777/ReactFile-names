@@ -1,0 +1,21 @@
+nav{
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
+    
+}
+.nav-right{
+    display: flex;
+
+}
+
+.nav-link{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+}
+.nav-link:hover{
+    color: black;
+    background-color: white;
+}
