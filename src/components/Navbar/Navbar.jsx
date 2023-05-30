@@ -1,13 +1,14 @@
 import "./Navbar.css";
 export default function Navbar() {
-  return (
+    return (
         <nav>
             <div className="nav-right">
                 <div className="nav-link">HOME</div>
                 <div className="nav-link">ABOUT</div>
                 <div className="nav-link">VACANCY</div>
                 <div className="nav-link">CONTANT</div>
-            </div>  
+                <div className="hamburger"><i className="bi-border-width" ></i></div>
+            </div>
         </nav>
-  )
+    )
 }

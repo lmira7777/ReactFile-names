@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './user.css'
 function User(props) {
   return (
     <div className="card mb-3">

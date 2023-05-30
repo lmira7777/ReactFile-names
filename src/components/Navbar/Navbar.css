@@ -19,3 +19,27 @@ nav{
     color: black;
     background-color: white;
 }
+.hamburger{
+    color: white;
+    font-size: 25px;
+    display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+    .nav-link{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .nav-link{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+  }
